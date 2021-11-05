@@ -2,6 +2,14 @@
 	pageEncoding="ISO-8859-1" isELIgnored="false"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
+<head>
+<script lang="text/javascript">
+	function doPrint() {
+		frames.focus();
+		frames.print();
+	}
+</script>
+</head>
 <html>
 <body>
 	<c:choose>
@@ -30,6 +38,8 @@
 			<b>No Data Found</b>
 		</c:otherwise>
 	</c:choose>
+	
+	<a href="JavaScript:doPrint()" style="color:red;text-align="center">Print</a>
 
 </body>
 </html>
