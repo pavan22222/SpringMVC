@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<frm:form action="register" method="POST" modelAttribute="empForm">
+	<frm:form action="save" method="POST" modelAttribute="empForm">
 		<table align="center">
 			<tbody>
 				<tr>

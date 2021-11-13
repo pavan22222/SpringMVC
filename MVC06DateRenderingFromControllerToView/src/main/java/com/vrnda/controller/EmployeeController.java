@@ -31,7 +31,7 @@ public class EmployeeController {
 		return "/home";
 	}
 	
-	@PostMapping("/register")
+	@PostMapping("/save")
 	public String register(Model model,@ModelAttribute() Employee emp) {
 		Integer result=0;
 		try {
