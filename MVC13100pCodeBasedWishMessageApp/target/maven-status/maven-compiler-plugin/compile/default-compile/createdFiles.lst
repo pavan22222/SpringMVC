@@ -1,0 +1,6 @@
+com\vrnda\cfgs\WebMvcConfig.class
+com\vrnda\cfgs\AppConfig.class
+com\vrnda\controller\WishMessageController.class
+com\vrnda\initializer\MyWebAppInitializer.class
+com\vrnda\service\WishMessageService.class
+com\vrnda\cfgs\ServiceConfig.class
